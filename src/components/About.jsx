@@ -29,6 +29,7 @@ const About = () => {
                 style={{ filter: 'brightness(0) invert(1)' }}
                 src={arrow}
                 alt="not work"
+                loading="lazy"
               />
             </button>
           </div>
@@ -40,6 +41,7 @@ const About = () => {
             className="w-full max-w-[400px] md:max-w-full rounded-md shadow-lg"
             src={members}
             alt="not work"
+            loading="lazy"
           />
         </div>
       </div>

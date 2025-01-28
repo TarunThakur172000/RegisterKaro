@@ -17,9 +17,9 @@ const HeroSection = () => {
       <div className="border-sky-400 border">
         <div className="flex flex-col md:flex-row px-6 md:px-[8%] pt-10">
           <span className="flex items-center gap-2 mb-6 md:mb-0">
-            <img className="w-10 md:w-[10%]" src={star1} alt="not work" />
+            <img className="w-10 md:w-[10%]" src={star1} alt="not work" loading="lazy"/>
             <p className="font-semibold text-lg md:text-xl">Google Rating</p>
-            <img className="w-28 md:w-[34%] mt-1" src={starts} alt="not work" />
+            <img className="w-28 md:w-[34%] mt-1" src={starts} alt="not work" loading="lazy"/>
           </span>
         </div>
         <div className="flex flex-col md:flex-row justify-center px-4">
@@ -32,7 +32,7 @@ const HeroSection = () => {
                 for compliance business
               </h1>
               <div className="py-6">
-                <img className="py-2" src={line} alt="not work" />
+                <img className="py-2" src={line} alt="not work" loading="lazy"/>
               </div>
             </div>
             <p className="text-base md:text-lg lg:text-xl mb-6">
@@ -40,23 +40,23 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-between mb-6">
               <div className="flex items-center gap-2">
-                <img className="w-9 h-9" src={w} alt="not work" />
+                <img className="w-9 h-9" src={w} alt="not work" loading="lazy"/>
                 <div>
-                  <img className="w-14 h-4" src={rating1} alt="not work" />
+                  <img className="w-14 h-4" src={rating1} alt="not work" loading="lazy"/>
                   <p className="text-sm">Customer Rating</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <img className="w-9 h-9" src={peopls} alt="not work" />
+                <img className="w-9 h-9" src={peopls} alt="not work" loading="lazy"/>
                 <div>
-                  <img className="w-14 h-4" src={rating2} alt="not work" />
+                  <img className="w-14 h-4" src={rating2} alt="not work" loading="lazy"/>
                   <p className="text-sm">Clients</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <img className="w-9 h-9" src={hands} alt="not work" />
+                <img className="w-9 h-9" src={hands} alt="not work" loading="lazy"/>
                 <div>
-                  <img className="w-14 h-4" src={rating3} alt="not work" />
+                  <img className="w-14 h-4" src={rating3} alt="not work" loading="lazy"/>
                   <p className="text-sm">Financial Stability</p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const HeroSection = () => {
                 Talk to an Expert
               </a>
               <span className="flex items-center gap-2">
-                <img className="w-6 h-6 cursor-pointer" src={btn} alt="not work" />
+                <img className="w-6 h-6 cursor-pointer" src={btn} alt="not work" loading="lazy"/>
                 <p className="text-sm md:text-base">See how it works</p>
               </span>
             </div>
@@ -89,7 +89,7 @@ const HeroSection = () => {
                 Annual Compliance
               </span>
             </div>
-            <img className="w-full mt-6" src={men} alt="not work" />
+            <img className="w-full mt-6" src={men} alt="not work" loading="lazy"/>
           </div>
         </div>
       </div>

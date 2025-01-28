@@ -28,7 +28,7 @@ export default function TextNav() {
           <li className="p-4 md:p-0"><a href="#">Blog</a></li>
           <li className="p-4 md:p-0"><a href="#">Contact Us</a></li>
           <li className="p-4 md:p-0"><a href="#">About Us</a></li>
-          <li className="p-4 md:p-0"><img src={search} alt="Search Icon" /></li>
+          <li className="p-4 md:p-0"><img src={search} alt="Search Icon" loading="lazy"/></li>
           <li className="p-4 md:p-0">
             <button className="bg-[#ffa229] text-white px-4 py-2 rounded-md text-sm">
               Talk To An Expert

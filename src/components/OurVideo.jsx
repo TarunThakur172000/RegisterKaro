@@ -13,7 +13,7 @@ const OurVideo = () => {
           </p>
         </div>
         <div className="py-2">
-          <img className="w-[80%] md:w-full" src={image} alt="not work" />
+          <img className="w-[80%] md:w-full" src={image} alt="not work" loading="lazy"/>
         </div>
       </div>
       

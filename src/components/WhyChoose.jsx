@@ -22,10 +22,10 @@ const WhyChoose = () => {
           </p>
         </div>
         <div className="w-[40%] md:w-[17%] flex justify-center items-center">
-          <img src={safe_icon} alt="safe_icon" className="w-full h-auto" />
+          <img src={safe_icon} alt="safe_icon" className="w-full h-auto" loading="lazy"/>
         </div>
         <div className="w-[40%] md:w-[16%] flex justify-center items-center">
-          <img src={check_icon} alt="check_icon" className="w-full h-auto" />
+          <img src={check_icon} alt="check_icon" className="w-full h-auto" loading="lazy"/>
         </div>
       </div>
 
@@ -33,13 +33,13 @@ const WhyChoose = () => {
       <div className="w-full md:w-[94.5%]">
         <div className="flex flex-col md:flex-row justify-center md:justify-end gap-4 p-4">
           <div className="w-full md:w-[18.5%] flex justify-center items-center">
-            <img src={smile_icon} alt="smile_icon" className="w-full h-auto" />
+            <img src={smile_icon} alt="smile_icon" className="w-full h-auto" loading="lazy"/>
           </div>
           <div className="w-full md:w-[18.5%] flex justify-center items-center">
-            <img src={person_icon} alt="person_icon" className="w-full h-auto" />
+            <img src={person_icon} alt="person_icon" className="w-full h-auto" loading="lazy"/>
           </div>
           <div className="w-full md:w-[18.5%] flex justify-center items-center">
-            <img src={protect_icon} alt="protect_icon" className="w-full h-auto" />
+            <img src={protect_icon} alt="protect_icon" className="w-full h-auto" loading="lazy"/>
           </div>
         </div>
       </div>

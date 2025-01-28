@@ -19,7 +19,7 @@ const Clients = () => {
 
       {/* Image */}
       <span className="my-10 md:my-20 w-full flex justify-center">
-        <img className="w-[80%] md:w-[100%] h-auto" src={pt} alt="not work" />
+        <img className="w-[80%] md:w-[100%] h-auto" src={pt} alt="not work" loading="lazy"/>
       </span>
     </div>
   );

@@ -47,10 +47,10 @@ const AppPromoPage = () => {
               transition={{ duration: 1, delay: 0.6 }}
             >
               <a>
-                <img src={appStore} alt="App Store" className="h-[58px] sm:h-[64px] w-[150px] sm:w-[180px] mr-2" />
+                <img src={appStore} alt="App Store" className="h-[58px] sm:h-[64px] w-[150px] sm:w-[180px] mr-2" loading="lazy" />
               </a>
               <a>
-                <img src={googlePlay} alt="Google Play" className="h-[58px] sm:h-[64px] w-[150px] sm:w-[180px] mr-2" />
+                <img src={googlePlay} alt="Google Play" className="h-[58px] sm:h-[64px] w-[150px] sm:w-[180px] mr-2" loading="lazy" />
               </a>
             </motion.div>
           </div>
@@ -67,6 +67,7 @@ const AppPromoPage = () => {
                 src={phoneimg}
                 alt="Phone Preview"
                 className="rounded-xl shadow-lg w-[80%] sm:w-[60%] md:w-[40rem] h-[auto] md:h-[60rem]"
+                loading="lazy"
               />
             </motion.div>
           </div>

@@ -88,26 +88,26 @@ const Services = () => {
                   <div className="w-1 h-5 bg-[#BB162B] rounded-full animate-bounce" />
                 </div>
 
-                <img className="w-12 h-12" src={shop} alt="not work" />
+                <img className="w-12 h-12" src={shop} alt="not work" loading="lazy"/>
                 <h2 className="text-[18px] sm:text-[20px] font-bold">Payroll Services</h2>
                 <p className="text-[15px] sm:text-[17px] w-[16rem]">
                   Expand your business across the globe with minimal effort.
                 </p>
                 <span className="flex justify-center items-center gap-1">
                   <a className="text-[#1c4670] font-medium cursor-pointer">Learn more</a>
-                  <img className="w-4 h-4 mt-1" src={arrow} alt="not work" />
+                  <img className="w-4 h-4 mt-1" src={arrow} alt="not work" loading="lazy"/>
                 </span>
                 </div>
 
 
           {/* Card 6 */}
           <div className='flex flex-col justify-center items-center text-center gap-4'>
-            <img className='w-12 h-12' src={speaker} alt='not work' />
+            <img className='w-12 h-12' src={speaker} alt='not work' loading="lazy"/>
             <h2 className='text-[18px] sm:text-[20px] font-bold'>Bookkeeping Services</h2>
             <p className='text-[15px] sm:text-[17px] w-[16rem]'>Steering user behaviours with creative design, data insights & technology.</p>
             <span className='flex justify-center items-center gap-1'>
               <a className='text-[#1c4670] font-medium cursor-pointer'>Learn more</a>
-              <img className='w-4 h-4 mt-1' src={arrow} alt='not work' />
+              <img className='w-4 h-4 mt-1' src={arrow} alt='not work' loading="lazy" />
             </span>
           </div>
         </div>

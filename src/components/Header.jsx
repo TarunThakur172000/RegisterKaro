@@ -10,7 +10,7 @@ const Header = () => {
     <>
     <div className='flex w-[100%] flex-1 bg-[#1c4670] justify-end items-cente px-4 '>
        <span className="flex">
-            <img src={mail} alt="not work"/>          
+            <img src={mail} alt="not work" loading="lazy"/>          
        </span>
      
        <span className="flex items-center">
