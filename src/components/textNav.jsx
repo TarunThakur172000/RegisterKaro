@@ -10,7 +10,7 @@ export default function TextNav() {
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex justify-center items-center w-[20%] pb-1">
-          <img src={Logo} alt="Company Logo" />
+          <img src={Logo} alt="Company Logo" loading="lazy"/>
         </div>
         <div className="md:hidden">
           <button

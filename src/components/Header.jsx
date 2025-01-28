@@ -14,7 +14,7 @@ const Header = () => {
        </span>
      
        <span className="flex items-center">
-       <img src={Follow}/>
+       <img src={Follow} loading="lazy"/>
        </span>
    </div>
    
